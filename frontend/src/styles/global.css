@@ -1,0 +1,8 @@
+@import './vars.css';
+
+* { box-sizing: border-box; }
+html,body,#root { height: 100%; margin: 0; font-family: Inter, system-ui, Arial, sans-serif; background: var(--bg); color: var(--text); }
+
+a { color: inherit; text-decoration: none }
+
+button { font: inherit }

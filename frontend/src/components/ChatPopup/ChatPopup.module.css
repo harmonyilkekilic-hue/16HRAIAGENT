@@ -1,0 +1,14 @@
+@import '../../styles/vars.css';
+
+.launch { position: fixed; right: 20px; bottom: 20px; width:64px; height:64px; border-radius:50%; background: var(--accent); color:white; border:none; box-shadow: 0 6px 18px rgba(0,0,0,0.12); cursor:pointer; font-weight:700 }
+
+.window { position: fixed; right: 20px; bottom: 100px; width: 380px; max-height: 520px; display:flex; flex-direction:column; background: white; border-radius:12px; box-shadow: 0 8px 30px rgba(0,0,0,0.15); overflow: hidden }
+.header { display:flex; justify-content:space-between; align-items:center; padding:12px 16px; background: var(--primary); color: white }
+.close { background: transparent; border: none; color: white; font-size:16px; cursor:pointer }
+.list { padding:12px; overflow:auto; flex:1; display:flex; flex-direction:column; gap:8px }
+.agentMsg { align-self:flex-start; background:#f1f5f8; padding:8px 10px; border-radius:8px; max-width:80% }
+.userMsg { align-self:flex-end; background:var(--primary); color:white; padding:8px 10px; border-radius:8px; max-width:80% }
+.typing { font-size:12px; color:#666 }
+.inputRow { display:flex; gap:8px; padding:12px; border-top:1px solid #eee }
+.inputRow input { flex:1; padding:8px; border-radius:8px; border:1px solid #ddd }
+.send { background: var(--accent); color:white; border:none; padding:8px 12px; border-radius:8px; cursor:pointer }

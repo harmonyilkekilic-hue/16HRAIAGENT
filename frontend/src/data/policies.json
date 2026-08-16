@@ -1,0 +1,5 @@
+[
+  { "id": 1, "title": "Vacation Policy", "body": "Employees accrue paid vacation based on tenure. Submit requests through the Leave page." },
+  { "id": 2, "title": "Sick Leave", "body": "Sick leave is available for employees for short-term illness or medical appointments." },
+  { "id": 3, "title": "Remote Work", "body": "Remote work is supported with manager approval. See the remote work guidelines for details." }
+]

@@ -1,0 +1,14 @@
+@import './styles/vars.css';
+
+.app {
+  display: flex;
+  height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.main {
+  flex: 1;
+  padding: 24px;
+  overflow: auto;
+}

@@ -1,0 +1,6 @@
+[
+  { "id": 1, "name": "Aisha Khan", "role": "HR Manager", "department": "Human Resources", "email": "aisha.khan@example.com" },
+  { "id": 2, "name": "Ben Carter", "role": "Software Engineer", "department": "Engineering", "email": "ben.carter@example.com" },
+  { "id": 3, "name": "Clara Liu", "role": "Product Designer", "department": "Design", "email": "clara.liu@example.com" },
+  { "id": 4, "name": "Diego Morales", "role": "Payroll Specialist", "department": "Finance", "email": "diego.morales@example.com" }
+]

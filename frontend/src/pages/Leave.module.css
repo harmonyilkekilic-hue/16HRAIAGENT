@@ -1,0 +1,10 @@
+@import '../styles/vars.css';
+
+.left { background: white; padding:12px; border-radius:8px; margin-bottom:16px }
+.right { background: white; padding:12px; border-radius:8px }
+.form { display:flex; flex-direction:column; gap:8px }
+.form label { font-size:13px; display:flex; flex-direction:column }
+.form input, .form select { padding:8px; border-radius:6px; border:1px solid #ddd }
+.btn { background: var(--accent); color: white; border: none; padding:10px 12px; border-radius:6px; cursor:pointer }
+.table { width:100%; border-collapse: collapse }
+.table th, .table td { text-align:left; padding:8px; border-bottom:1px solid #eee }

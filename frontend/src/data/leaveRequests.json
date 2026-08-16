@@ -1,0 +1,4 @@
+[
+  { "id": 1, "name": "Ben Carter", "type": "Vacation", "start": "2026-09-01", "end": "2026-09-05", "status": "Approved" },
+  { "id": 2, "name": "Clara Liu", "type": "Sick", "start": "2026-08-12", "end": "2026-08-13", "status": "Pending" }
+]

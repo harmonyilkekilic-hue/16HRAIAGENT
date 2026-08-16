@@ -1,0 +1,5 @@
+[
+  { "id": 1, "title": "Open Enrollment Reminder", "date": "2026-08-01", "body": "Open enrollment for benefits begins Aug 15. Review your options." },
+  { "id": 2, "title": "Office Closure", "date": "2026-07-20", "body": "Company holiday on Sep 6 for Labor Day." },
+  { "id": 3, "title": "Wellness Workshop", "date": "2026-08-10", "body": "Join our virtual wellness workshop on stress management." }
+]

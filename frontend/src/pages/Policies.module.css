@@ -1,0 +1,6 @@
+@import '../styles/vars.css';
+
+.list { display:flex; flex-direction:column; gap:8px }
+.item { background: white; border-radius:8px; overflow:hidden }
+.title { width:100%; text-align:left; padding:12px; border:none; background:transparent; font-weight:600 }
+.body { padding:12px; border-top:1px solid #eee }

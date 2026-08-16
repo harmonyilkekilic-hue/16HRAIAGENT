@@ -1,0 +1,25 @@
+@import '../../styles/vars.css';
+
+.sidebar {
+  width: var(--nav-width);
+  background: var(--primary);
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.nav {
+  display:flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.nav a { color: rgba(255,255,255,0.9); padding: 8px 10px; border-radius:6px }
+
+.active { background: rgba(255,255,255,0.08) }
