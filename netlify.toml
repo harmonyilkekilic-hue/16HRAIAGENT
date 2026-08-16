@@ -1,5 +1,7 @@
 [build]
-  command = "npm --prefix frontend run build"
+  # Install frontend dependencies first, then build. Using --prefix ensures
+  # the frontend folder gets its own install on Netlify build nodes.
+  command = "npm --prefix frontend install && npm --prefix frontend run build"
   publish = "frontend/dist"
   functions = "netlify/functions"
 
