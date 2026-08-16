@@ -1,0 +1,12 @@
+{
+  "name": "16hraiagent-root",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "@azure/openai": "4.2.0",
+    "@netlify/functions": "^1.3.0"
+  }
+}
